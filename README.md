@@ -33,3 +33,4 @@ foreach($xml->path('root/animal') as $animal) {
 	echo "A {$animal->attributes()->type} has a tail? {$animal->hastail}!\n";
 } 
 ```
+
